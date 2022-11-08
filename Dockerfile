@@ -5,3 +5,5 @@ RUN echo hello
 ADD configure.sh /configure.sh
 RUN chmod +x /configure.sh
 CMD /configure.sh
+EXPOSE 443
+EXPOSE 8888
